@@ -1,0 +1,11 @@
+Adding a new migration using the PM:
+
+Set the Api project as startup project
+Select the persistence project in the default project dropdown in PM
+Use this command:
+add-migration AddedPlatformDescription -context CleanCommanderDbContext
+
+Then to update the database, use:
+update-database -context CleanCommanderDbContext
+
+

@@ -1,0 +1,5 @@
+To create and run a docker compose instance:
+docker compose -f docker-compose.yml up -d --remove-orphans
+
+To stop and remove a docker compose instance:
+docker compose down

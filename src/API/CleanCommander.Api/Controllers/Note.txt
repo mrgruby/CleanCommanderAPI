@@ -1,0 +1,19 @@
+﻿This is an example of the format for the JSON patch document, sent in the requets for the PATCH method.
+
+[
+    {
+      "op": "replace",
+      "path": "/howTo",
+      "value": "This is another updated commmand"
+    },
+    {
+      "op": "replace",
+      "path": "/line",
+      "value": "This is an updated test command"
+    },
+    {
+      "op": "replace",
+      "path": "/comment",
+      "value": "This is an updated test comment"
+    }
+]
